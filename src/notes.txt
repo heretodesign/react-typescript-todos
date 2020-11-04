@@ -1,0 +1,29 @@
+
+
+const anExampleVariable: any = ''
+console.log(anExampleVariable)
+//type annotation: define the type of any given variable
+
+let abel: string = 'abel'
+let noone: undefined = undefined
+let asha: boolean = false
+let mez: null = null
+let jsx: any = 'jsx bro'
+
+const array: [string, any, number, boolean, undefined] = ['1',2,3,true, undefined]
+const arrayName: [string, any, number, boolean, undefined] = ['1',2,3,true, undefined]
+
+const sum = (a: number, b: string): string => {
+    return a + b
+}
+sum(1, '3')
+
+const max = (a: number, b: any): any => {
+    return a + b
+}
+max(1,'2')
+
+const less = (a: number, b: number): number => {
+    return a - b
+}
+less(1,2)
